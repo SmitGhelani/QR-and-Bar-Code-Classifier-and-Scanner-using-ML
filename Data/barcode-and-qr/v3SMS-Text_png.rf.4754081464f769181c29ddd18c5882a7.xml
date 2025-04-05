@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>v3SMS-Text_png.rf.4754081464f769181c29ddd18c5882a7.jpg</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\v3SMS-Text_png.rf.4754081464f769181c29ddd18c5882a7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>qr</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>37</ymin>
+			<xmax>379</xmax>
+			<ymax>386</ymax>
+		</bndbox>
+	</object>
+</annotation>

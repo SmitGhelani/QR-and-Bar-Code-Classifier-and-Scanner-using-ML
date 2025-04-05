@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>closeimage018_jpg.rf.939e4c29a51a7987357eb5e52710549f.jpg</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\closeimage018_jpg.rf.939e4c29a51a7987357eb5e52710549f.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>qr</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>65</ymin>
+			<xmax>400</xmax>
+			<ymax>354</ymax>
+		</bndbox>
+	</object>
+</annotation>

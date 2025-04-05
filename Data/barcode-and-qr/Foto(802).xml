@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Foto(802).jpg</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\Foto(802).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1152</width>
+		<height>864</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>barcode</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>386</xmin>
+			<ymin>276</ymin>
+			<xmax>722</xmax>
+			<ymax>539</ymax>
+		</bndbox>
+	</object>
+</annotation>

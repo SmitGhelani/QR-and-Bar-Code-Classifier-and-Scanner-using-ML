@@ -1,15 +1,13 @@
-import cv2
+
 import os
 import numpy as np
-from numpy.core.fromnumeric import reshape
-import tensorflow as tf
-from tensorflow.keras import models
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten, Conv2D, MaxPooling2D
+from keras.api.preprocessing import image
+from keras.api.models import Sequential
+from keras.api.layers import Dense, Activation, Flatten, Conv2D, MaxPooling2D
 import pickle
 import training_data
 import scanner
+from capture_image import capture_image
 
 
 x = pickle.load(open("x.pickle", "rb")) 
@@ -39,20 +37,37 @@ model.fit(x,y,batch_size=32, epochs=3, validation_split=0.2)
 
 dir_path = "other/test"
 
-for i in os.listdir(dir_path):
-    img_path = dir_path +"//"+i
-    img = image.load_img(img_path, target_size=(28,28))
+# for i in os.listdir(dir_path):
+#     img_path = dir_path +"//"+i
+#     img = image.load_img(img_path, target_size=(28,28))
 
-    x_test = image.img_to_array(img)
-    x_test = np.expand_dims(x_test, axis=0)
-    x_test = np.array(x_test).reshape(-1, training_data.IMG_SIZE, training_data.IMG_SIZE, 1)
-    images = np.vstack([x_test])
-    val = model.predict(images)
+#     x_test = image.img_to_array(img)
+#     x_test = np.expand_dims(x_test, axis=0)
+#     x_test = np.array(x_test).reshape(-1, training_data.IMG_SIZE, training_data.IMG_SIZE, 1)
+#     images = np.vstack([x_test])
+#     val = model.predict(images)
     
-    if val[2] < 0.5 :
-        cls ="QR Code"
-        scanner.decode_bar(img_path,cls)
+#     if val[2] < 0.5 :
+#         cls ="QR Code"
+#         # scanner.decode_bar(img_path,cls)
         
-    else:
-        cls = "Barcode"
-        scanner.decode_bar(img_path,cls)
+#     else:
+#         cls = "Barcode"
+#         # scanner.decode_bar(img_path,cls)
+
+capture_image()
+
+img_path =  "captured_images/captured_image.jpg"
+img = image.load_img(img_path, target_size=(28,28))
+x_test = image.img_to_array(img)
+x_test = np.expand_dims(x_test, axis=0)
+x_test = np.array(x_test).reshape(-1, training_data.IMG_SIZE, training_data.IMG_SIZE, 1)
+images = np.vstack([x_test])
+val = model.predict(images)
+print(val)
+if val[2] < 0.5 :
+    cls ="QR Code"
+    scanner.decode_bar(img_path,cls)
+else:
+    cls = "Barcode"
+    scanner.decode_bar(img_path,cls)

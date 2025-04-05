@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>v3VCard-Encoding_png.rf.4d16f021797addf2555fc5363a752c36.jpg</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\v3VCard-Encoding_png.rf.4d16f021797addf2555fc5363a752c36.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>qr</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>13</ymin>
+			<xmax>400</xmax>
+			<ymax>403</ymax>
+		</bndbox>
+	</object>
+</annotation>

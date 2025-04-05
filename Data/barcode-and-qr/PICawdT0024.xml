@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>PICawdT0024.JPG</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\PICawdT0024.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2976</width>
+		<height>2232</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>barcode</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>804</xmin>
+			<ymin>729</ymin>
+			<xmax>2260</xmax>
+			<ymax>1681</ymax>
+		</bndbox>
+	</object>
+</annotation>

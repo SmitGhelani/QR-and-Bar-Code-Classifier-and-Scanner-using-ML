@@ -1,4 +1,4 @@
-from barcode.writer import ImageWriter
+from barcode import writer
 from barcode import EAN13
 from os import name
 import pandas as pd
@@ -35,7 +35,7 @@ def create_bar():
     for i in range(500):
         text = random_number()
         file = "Data/barImg/bar_img_"+str(i)
-        ean = barcode.get('ean13', text, writer=ImageWriter())
+        ean = barcode.get('ean13', text, writer=writer.ImageWriter())
         filename = ean.save(file)
         img_arr.append(file)
         text_arr.append(text)

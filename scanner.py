@@ -1,7 +1,6 @@
 from pyzbar import pyzbar
 import cv2
 from glob import glob
-import code_generation
 
 def decode_barcode(image, cls):
     decoded_objects = pyzbar.decode(image)

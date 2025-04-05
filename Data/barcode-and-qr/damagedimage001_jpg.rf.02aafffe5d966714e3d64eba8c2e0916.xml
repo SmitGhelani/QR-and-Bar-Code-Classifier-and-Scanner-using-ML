@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>damagedimage001_jpg.rf.02aafffe5d966714e3d64eba8c2e0916.jpg</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\damagedimage001_jpg.rf.02aafffe5d966714e3d64eba8c2e0916.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>qr</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>189</xmin>
+			<ymin>240</ymin>
+			<xmax>238</xmax>
+			<ymax>279</ymax>
+		</bndbox>
+	</object>
+</annotation>

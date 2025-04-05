@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>v2FaceBook_png.rf.1b2f79dfc49b7addc87fb14367832603.jpg</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\v2FaceBook_png.rf.1b2f79dfc49b7addc87fb14367832603.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>qr</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>42</xmin>
+			<ymin>40</ymin>
+			<xmax>375</xmax>
+			<ymax>375</ymax>
+		</bndbox>
+	</object>
+</annotation>

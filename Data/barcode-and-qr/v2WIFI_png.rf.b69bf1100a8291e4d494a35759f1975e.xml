@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>v2WIFI_png.rf.b69bf1100a8291e4d494a35759f1975e.jpg</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\v2WIFI_png.rf.b69bf1100a8291e4d494a35759f1975e.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>qr</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>43</ymin>
+			<xmax>379</xmax>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+</annotation>

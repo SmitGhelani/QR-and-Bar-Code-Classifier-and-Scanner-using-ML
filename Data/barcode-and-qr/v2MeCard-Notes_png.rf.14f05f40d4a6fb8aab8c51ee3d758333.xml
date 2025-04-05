@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>v2MeCard-Notes_png.rf.14f05f40d4a6fb8aab8c51ee3d758333.jpg</filename>
+	<path>D:\Jojo_Data\python\ai\pythonProject\object_detection_project\barcode-and-qr\images\v2MeCard-Notes_png.rf.14f05f40d4a6fb8aab8c51ee3d758333.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>qr</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>34</xmin>
+			<ymin>30</ymin>
+			<xmax>383</xmax>
+			<ymax>383</ymax>
+		</bndbox>
+	</object>
+</annotation>
